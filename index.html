@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(233, 47%, 7%);
+      color: white;}
+      h1{
+        padding-left: 10px;
+      }
+
+      #num{
+        color: purple;
+      }
+      #card{
+        background-color: hsl(244, 38%, 16%);
+
+      width: auto;  
+      height: 300px;
+      flex:1;   
+      border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      #cards{
+        width: 407px;
+        margin-right: 20px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+
+
+        
+      }
+
+      #boxes{
+        display: inline-flex;
+      }
+      .box{
+        padding: 10px;
+      }
+      .notbold{
+        font-weight:normal;
+
+      }
+      #container{
+        display: flex;
+        margin-left:200px ;
+        width: 250px;
+        padding: 50px;
+      }
+      #text{
+        padding: 10px;
+        width: 500px;
+      }
+
+  </style>
+</head>
+<body><div id="container">
+  <div id="card">
+  <h1>Get <span id="num"> insights</span> that help your business grow.</h1><br>
+<div id="text"><p>
+  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+  experience, and overall efficiency.
+</p></div><div id="boxes">
+  <div class="box"><p> <b>10k+</b><br>companies  </p>   </div>
+  <div class="box"><p><b>314</b><br> templates</p>  </div>
+  <div class="box"><p><b>12m+</b> <br>queries  </p> </div>
+  </div>
+</div><div id="image">
+  <img src="images/picture.jpg" alt="cards" id="cards" style="filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);" >
+</div></div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
